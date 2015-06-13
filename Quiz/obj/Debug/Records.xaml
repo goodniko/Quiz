@@ -1,0 +1,74 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="Quiz.Records"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Quiz"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{StaticResource myBackground}"                     >
+
+        <Pivot Title="РЕКОРДЫ">
+
+        <PivotItem Header="ЛУЧШИЕ РЕКОРДЫ">
+            <Grid>
+                <ListBox Name="listBox" Foreground="White" Background="{StaticResource myBackground}">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Grid.Row="1" Orientation="Horizontal">
+                                <TextBlock FontSize="50" Text="{Binding name}"></TextBlock>
+                                <TextBlock Margin="20,0,0,0" FontSize="50" Text="{Binding score}"></TextBlock>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+            </Grid>
+        </PivotItem>
+
+        <PivotItem Header="'ЛУЧШИЕ В ЭТОМ МЕСЯЦЕ'">
+            <Grid>
+                <ListBox Name="listBoxBestInMounth" Foreground="White" Background="{StaticResource myBackground}">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Grid.Row="1" Orientation="Horizontal">
+                                <TextBlock FontSize="50" Text="{Binding name}"></TextBlock>
+                                <TextBlock Margin="20,0,0,0" FontSize="50" Text="{Binding score}"></TextBlock>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+            </Grid>
+        </PivotItem>
+
+        <PivotItem Header="'ВЫБЕРИ ОТВЕТ'">
+                <Grid>
+                    <ListBox Name="listBoxChooseUnsver" Foreground="White" Background="{StaticResource myBackground}">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Grid.Row="1" Orientation="Horizontal">
+                                    <TextBlock FontSize="50" Text="{Binding name}"></TextBlock>
+                                    <TextBlock Margin="20,0,0,0" FontSize="50" Text="{Binding score}"></TextBlock>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                </Grid>
+           </PivotItem>
+
+        <PivotItem Header="'ОТВЕТ ВРУЧНУЮ'">
+            <Grid>
+                <ListBox Name="listBoxMyUnsver" Foreground="White" Background="{StaticResource myBackground}">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Grid.Row="1" Orientation="Horizontal">
+                                <TextBlock FontSize="50" Text="{Binding name}"></TextBlock>
+                                <TextBlock Margin="20,0,0,0" FontSize="50" Text="{Binding score}"></TextBlock>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+            </Grid>
+        </PivotItem>
+    </Pivot>
+</Page>
+

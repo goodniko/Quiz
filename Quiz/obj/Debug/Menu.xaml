@@ -1,0 +1,46 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="Quiz.Menu"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Quiz"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{StaticResource myBackground}"                     >
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        
+        <TextBlock Grid.Row="0" FontSize="100">МЕНЮ</TextBlock>
+        
+        <StackPanel Grid.Row="1" Margin="5,0,5,0">
+            <StackPanel HorizontalAlignment="Left" Orientation="Horizontal">
+                <TextBlock FontSize="30">Игрок:</TextBlock>
+                <TextBlock FontWeight="Bold" Name="txtPlayerName" FontSize="30" Margin="5,0,0,0" HorizontalAlignment="Right"></TextBlock>
+            </StackPanel>
+            
+            <!--ВОТ ТУТ МОЖНО ДОБАВИТЬ КАТЕГОРИЮ-->
+            
+            <ComboBox x:ConnectionId='2' Name="comboBox"                                               >
+                <ComboBoxItem Content="Спорт"></ComboBoxItem>
+                <ComboBoxItem Content="Животные"></ComboBoxItem>
+            </ComboBox>
+            
+            
+            
+            <TextBlock x:ConnectionId='3' FontSize="30"                            >РЕЖИМ ДЛЯ 1 ИГРОКА</TextBlock>
+            <StackPanel Name="advencedPanelForOnePlayer" Visibility="Collapsed" Margin="10,0,0,0">
+                <TextBlock x:ConnectionId='7' FontSize="25"                               >"ВЫБЕРИ ОТВЕТ"</TextBlock>
+                <TextBlock x:ConnectionId='8' FontSize="25"                             >"ОТВЕТ ВРУЧНУЮ"</TextBlock>
+            </StackPanel>
+            <TextBlock x:ConnectionId='4' FontSize="30" TextWrapping="Wrap"                            >РЕЖИМ ДЛЯ 2 ИГРОКОВ</TextBlock>
+            <TextBlock x:ConnectionId='5' FontSize="30"                         >РЕКОРДЫ</TextBlock>
+            <TextBlock x:ConnectionId='6' FontSize="30"                      >НАЗАД</TextBlock>
+        </StackPanel>
+        
+    </Grid>
+</Page>
+

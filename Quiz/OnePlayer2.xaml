@@ -1,0 +1,32 @@
+﻿<Page
+    x:Class="Quiz.OnePlayer2"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Quiz"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{StaticResource myBackground}" Loaded="Page_Loaded">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="60"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <TextBlock Name="txtQuestion" TextAlignment="Justify" TextWrapping="Wrap" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" FontSize="30"></TextBlock>
+
+        <TextBlock Name="txtScore" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Bottom">0</TextBlock>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition Width="100"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            
+            <TextBox Name="txtBox" VerticalAlignment="Center" PlaceholderText="Напишите сюда свой ответ"></TextBox>
+            <Button Grid.Column="1" BorderBrush="{StaticResource myBackground}" VerticalAlignment="Center" HorizontalAlignment="Center" Click="Button_Click">
+                <TextBlock FontSize="17">ОТВЕТИТЬ</TextBlock>
+            </Button>
+        </Grid>
+    </Grid>
+</Page>

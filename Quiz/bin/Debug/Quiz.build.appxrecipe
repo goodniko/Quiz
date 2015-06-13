@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>YAKO</Machine>
+    <WindowsUser>goood_000</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>5a43c07e-7902-4cf0-b730-a937c68aba96</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\goood_000\Documents\Visual Studio 2013\Projects\Quiz\Quiz\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\goood_000\Documents\Visual Studio 2013\Projects\Quiz\Quiz\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\goood_000\Documents\Visual Studio 2013\Projects\Quiz\Quiz\bin\Debug\Quiz.exe">
+      <PackagePath>Quiz.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\goood_000\Documents\Visual Studio 2013\Projects\Quiz\packages\Newtonsoft.Json.6.0.8\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\goood_000\Documents\Visual Studio 2013\Projects\Quiz\Quiz\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\goood_000\Documents\Visual Studio 2013\Projects\Quiz\Quiz\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\goood_000\Documents\Visual Studio 2013\Projects\Quiz\Quiz\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\goood_000\Documents\Visual Studio 2013\Projects\Quiz\Quiz\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\goood_000\Documents\Visual Studio 2013\Projects\Quiz\Quiz\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\goood_000\Documents\Visual Studio 2013\Projects\Quiz\Quiz\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\goood_000\Documents\Visual Studio 2013\Projects\Quiz\Quiz\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\goood_000\Documents\Visual Studio 2013\Projects\Quiz\Quiz\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\goood_000\Documents\Visual Studio 2013\Projects\Quiz\Quiz\bin\Debug\Menu.xbf">
+      <PackagePath>Menu.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\goood_000\Documents\Visual Studio 2013\Projects\Quiz\Quiz\bin\Debug\OnePlayer.xbf">
+      <PackagePath>OnePlayer.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\goood_000\Documents\Visual Studio 2013\Projects\Quiz\Quiz\bin\Debug\OnePlayer2.xbf">
+      <PackagePath>OnePlayer2.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\goood_000\Documents\Visual Studio 2013\Projects\Quiz\Quiz\bin\Debug\Records.xbf">
+      <PackagePath>Records.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\goood_000\Documents\Visual Studio 2013\Projects\Quiz\Quiz\bin\Debug\Registration.xbf">
+      <PackagePath>Registration.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\goood_000\Documents\Visual Studio 2013\Projects\Quiz\Quiz\bin\Debug\TwoPlayer.xbf">
+      <PackagePath>TwoPlayer.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\goood_000\Documents\Visual Studio 2013\Projects\Quiz\Quiz\bin\Debug\Quiz.xr.xml">
+      <PackagePath>Quiz.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\goood_000\Documents\Visual Studio 2013\Projects\Quiz\Quiz\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
